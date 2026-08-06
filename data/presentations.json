@@ -1,9 +1,0 @@
-[
-  {
-    "title": "Prometheus + Grafana Infrastructure Setup using Terraform",
-    "type": "Technical Presentation",
-    "year": "2026",
-    "description": "A production-style monitoring platform covering AWS provisioning, configuration management, containerized monitoring services, GitLab CI/CD, alerting and future improvements.",
-    "url": "assets/presentations/Prometheus-Grafana-Infra-Setup-using-Terraform.pptx"
-  }
-]
