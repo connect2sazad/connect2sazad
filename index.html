@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-radius="soft" data-density="comfortable">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Sazad Ahemad — DevOps Engineer, Linux Administrator and Cloud Infrastructure professional.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Sazad Ahemad — DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.v4.0.0.css?v=4.7.0">
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Home">SA<span>®</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#credentials">Credentials</a><a href="blog.html">Blog</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch appearance" title="Switch light/dark appearance">◐</button>
+      <button id="customize-open" class="text-btn" type="button">Customize</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-kicker"><span></span><span id="availability"></span></div>
+      <div class="hero-grid">
+        <div><h1 id="hero-name"></h1><p id="hero-role" class="hero-role"></p></div>
+        <figure class="portrait-wrap"><img id="profile-image" src="assets/profile.jpg" alt="Portrait of Sazad Ahemad"><figcaption id="hero-meta"></figcaption></figure>
+      </div>
+      <div class="hero-bottom"><p id="hero-summary"></p><a href="#projects" class="round-link" aria-label="View projects">↓</a></div>
+    </section>
+
+    <section id="about" class="section split-section"><div class="section-label">01 / About</div><div class="section-content intro-copy"><h2 id="about-heading"></h2><div id="about-copy"></div><div id="stat-grid" class="stat-grid"></div></div></section>
+    <section id="focus" class="section"><div class="section-label">02 / Current Focus</div><div id="focus-list" class="section-content focus-grid"></div></section>
+    <section id="skills" class="section skill-section"><div class="section-label">03 / Capabilities</div><div id="skills-list" class="section-content"></div></section>
+    <section id="experience" class="section"><div class="section-label">04 / Experience</div><div id="experience-list" class="section-content timeline"></div></section>
+    <section id="projects" class="section projects-section"><div class="section-label">05 / Selected Work</div><div id="projects-list" class="section-content projects-grid"></div></section>
+    <section id="credentials" class="section"><div class="section-label">06 / Credentials</div><div class="section-content credential-layout"><div><div class="subsection-heading"><span>Certifications</span><span id="certification-count"></span></div><div id="certifications-list" class="credential-list"></div></div><div><div class="subsection-heading"><span>Presentations</span><span id="presentation-count"></span></div><div id="presentations-list" class="credential-list"></div></div></div></section>
+    <section class="section education-section"><div class="section-label">07 / Education</div><div id="education-list" class="section-content education-list"></div></section>
+    <section id="writing" class="section"><div class="section-label">08 / Writing</div><div class="section-content"><div class="writing-head"><h2>Notes from building,<br>breaking and improving systems.</h2><a class="text-link" href="blog.html">View all posts ↗</a></div><div id="latest-posts" class="post-grid"></div></div></section>
+    <section id="contact" class="contact-section"><div id="contact-eyebrow" class="contact-eyebrow"></div><h2>LET'S WORK<br>TOGETHER.</h2><div id="contact-links" class="contact-links"></div></section>
+  </main>
+
+  <footer><span>© <span id="year"></span> <span id="footer-name"></span></span><span>Version 4.7.0 · GitHub Pages Edition</span></footer>
+
+  <dialog id="customizer" class="customizer">
+    <form method="dialog" class="customizer-panel">
+      <div class="customizer-head"><div><span class="eyebrow">Appearance</span><h2>Make it yours</h2></div><button value="close" class="icon-btn" aria-label="Close">×</button></div>
+      <fieldset><legend>Theme</legend><div class="option-grid three"><button type="button" data-theme-option="light">Light</button><button type="button" data-theme-option="dark">Dark</button><button type="button" data-theme-option="system">System</button></div></fieldset>
+      <fieldset><legend>Text size</legend><div class="option-grid three"><button type="button" data-scale="compact">Compact</button><button type="button" data-scale="default">Default</button><button type="button" data-scale="large">Large</button></div></fieldset>
+      <fieldset><legend>Corner style</legend><div class="option-grid"><button type="button" data-radius="sharp">Sharp</button><button type="button" data-radius="soft">Soft</button></div></fieldset>
+      <fieldset><legend>Motion</legend><label class="switch-row"><span>Interface animation</span><input id="motion-toggle" type="checkbox" checked></label></fieldset>
+      <button id="reset-appearance" type="button" class="reset-btn">Reset appearance</button>
+    </form>
+  </dialog>
+
+  <noscript>This portfolio requires JavaScript to load content from JSON.</noscript>
+  <script src="script.v4.0.0.js?v=4.7.0" defer></script>
+</body>
+</html>

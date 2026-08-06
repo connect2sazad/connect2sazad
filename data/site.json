@@ -1,0 +1,13 @@
+{
+  "name": "Sazad Ahemad",
+  "availability": "Available for DevOps & System Administration roles",
+  "role": "DevOps Engineer \u00b7 Linux Administrator \u00b7 Cloud Infrastructure",
+  "location": "Bhubaneswar, India",
+  "languages": [
+    "English",
+    "Hindi",
+    "Odia"
+  ],
+  "profileImage": "assets/profile.jpg",
+  "summary": "I build, automate and operate reliable infrastructure \u2014 from Linux servers and AWS environments to CI/CD pipelines and monitoring platforms."
+}

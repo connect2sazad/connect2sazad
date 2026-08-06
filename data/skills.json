@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Cloud & IaC",
+    "items": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "EC2",
+      "IAM",
+      "S3",
+      "RDS",
+      "Auto Scaling",
+      "Load Balancer",
+      "CloudWatch"
+    ]
+  },
+  {
+    "title": "DevOps",
+    "items": [
+      "GitLab CI/CD",
+      "Jenkins",
+      "Docker",
+      "Git",
+      "Deployment Automation",
+      "Release Support"
+    ]
+  },
+  {
+    "title": "Systems",
+    "items": [
+      "Linux Administration",
+      "Windows Administration",
+      "Server Deployment",
+      "System Monitoring",
+      "PowerShell",
+      "Python Scripting"
+    ]
+  },
+  {
+    "title": "Web Stack",
+    "items": [
+      "Nginx",
+      "PHP-FPM",
+      "Core PHP",
+      "Laravel",
+      "ReactJS",
+      "JavaScript",
+      "MySQL",
+      "WordPress"
+    ]
+  }
+]
